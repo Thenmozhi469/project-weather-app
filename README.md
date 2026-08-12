@@ -36,11 +36,12 @@ A highly optimized, **fully responsive** single-page weather application built w
 
 ### 🚀 Getting Started
 
-1. **Get an API Key:** Sign up for a free account at [OpenWeatherMap](https://openweathermap.org/api) and acquire a free API key.
+1. **Get an API Key:** Sign up for a free account at [OpenWeatherMap](https://openweathermap.org/api) if you need to create your own key.
 2. **Configure:** Open [weather-app/script.js](file:///c:/Users/ELCOT/Downloads/project_weather_app-master/weather-app/script.js) and insert your key:
    ```javascript
-   KEY: 'YOUR_API_KEY_HERE',
+   KEY: '065e4d1b60cf7c882bc79567481c67aa',
    ```
+   *(Your API key is already configured in the script!)*
 3. **Run:** Double-click [weather-app/index.html](file:///c:/Users/ELCOT/Downloads/project_weather_app-master/weather-app/index.html) to open in your browser, or serve it using the VS Code **Live Server** extension.
 
 ---
@@ -74,11 +75,12 @@ A modern, enterprise-ready dashboard featuring a segregated frontend client and 
    ```bash
    cp .env.example .env
    ```
-4. Sign up for a free key at [WeatherAPI](https://www.weatherapi.com/) and paste it into your new `.env` file:
+4. Configure your API key. Create a `.env` file and add your key:
    ```env
    WEATHER_API_KEY=your_key_here
    PORT=5000
    ```
+   *(Your local `.env` file is already configured with your API key!)*
 5. Spin up the Express server:
    ```bash
    npm start
